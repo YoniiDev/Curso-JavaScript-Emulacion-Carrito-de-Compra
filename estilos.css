@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(66, 66, 66);
+}
+
+header{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: black;
+}
+header h1 {
+    color: white;
+    font-size: 30px;
+}
+
+main section{
+    height: 84vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section img{
+    margin: auto;
+    border: solid 4px red;
+    border-radius: 10px;
+
+}
+
+footer{
+    background-color: black;
+}
+
+footer p {
+    text-align: center;
+   color: white;
+
+}
+  
