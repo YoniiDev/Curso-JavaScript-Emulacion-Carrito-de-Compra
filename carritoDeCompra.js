@@ -40,7 +40,7 @@ do {
     do {
         precioProducto = parseInt(prompt('Precio del producto: '));
         if (isNaN(precioProducto) || precioProducto < 0) {
-            alert('Ingrese valor númerico positivo');
+            alert('Ingrese un valor númerico positivo');
         }
     } while (isNaN(precioProducto) || precioProducto < 0);
 
